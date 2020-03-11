@@ -6,17 +6,28 @@ The device consists of a simple mechanical system of rotors which are wired toge
 
 >The following are descriptions of the files:
 - Alphabet.java
-  - asdf
+  - Provides a mapping from characters to and from indices into the alphabet.
 - EnigmaException.java
+  - A general-purpose error-reporting exception for this package.
 - FixedRotor.java
+  - Represents a rotor that has no ratchet and does not advance.
 - Machine.java
+  - Represents the complete machine.
 - Main.java
   - Entry point to program. This handles program options and takes in a text file to return the coded or decoded output based on the specified rotor and reflector settings.
 - MovingRotor.java
+  - Represents a rotor that has a ratchet and can advance.
 - MovingRotorTest.java
+  -  The suite of all JUnit tests for the MovingRotor class.
 - Permutation.java
+  - Represents a permutation of a range of integers starting at 0 corresponding to the characters of an alphabet.
 - PermutationTest.java
+  - The suite of all JUnit tests for the Permutation class.
 - Reflector.java
+  - Represents a reflector in the enigma.
 - Rotor.java
+  - Superclass that represents a rotor in the enigma machine.
 - TestUtils.java
+  - Utility definitions for use in unit tests.
 - UnitTest.java
+  - The suite of all JUnit tests for the enigma package.
