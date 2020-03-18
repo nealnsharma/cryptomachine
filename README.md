@@ -1,4 +1,4 @@
-# Enigma
+# German Cryptography Machine
 ## Based on the WWII Enigma machine
 
 Enigma simulates the German cryptography machine used in WWII using Java to mimic the Enigma reciprocal substitution cipher algorithm to code and decode messages. 
